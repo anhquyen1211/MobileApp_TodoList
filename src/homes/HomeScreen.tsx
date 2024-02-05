@@ -13,6 +13,7 @@ import IonIcons from 'react-native-vector-icons/Ionicons';
 import TagComponent from '../components/TagComponent';
 import SpaceComponent from '../components/SpaceComponent';
 import moment from 'moment';
+import CircularComponent from '../components/CircularComponent';
 
 const HomeScreen = () => {
   return (
@@ -51,7 +52,7 @@ const HomeScreen = () => {
               </RowComponent>
             </View>
             <View>
-              <TextComponent text="CircleChar" />
+              <CircularComponent value={80} />
             </View>
           </RowComponent>
         </CardComponent>
